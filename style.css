@@ -1,0 +1,45 @@
+.body {
+    border: 3px solid #dedede;
+    background-color: #dcdde1;
+}
+
+.bar {
+    border: black;
+    text-align: center;
+}
+
+.upper {
+    width: auto;
+    height: 200px;
+    margin: 10px 0px;
+}
+
+.buttom {
+    margin: 6px 0px;
+}
+
+.right{
+    padding-right: 0px;
+}
+
+@media (min-width: 768px) {
+    .middle {
+    width: 75%;
+    }
+
+    .right{
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .right{
+        padding-left: 45px;
+    } 
+}
+
+@media screen and (min-width: 768px) .container .jumbotron,
+.container-fluid .jumbotron {
+    padding-right: 53px;
+    padding-left: 160px;
+}
